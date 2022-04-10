@@ -1,5 +1,6 @@
 {
 	"FileVersion": 3,
+	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -9,10 +10,22 @@
 		},
 		{
 			"Name": "AppleARKit",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac"
+			]
 		},
 		{
 			"Name": "GoogleARCore",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "GoogleARCoreServices",
 			"Enabled": true
 		}
 	]
